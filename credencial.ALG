@@ -1,21 +1,23 @@
-Algoritmo "GIT"
+Algoritmo "semnome"
 
 Var
 
-user, passowrd: caractere
-
-Inicio
-
-   escreva("digite o seu usuário ")
+user, passowrd:  caractere
+      
+   Inicio
+   escreva("digite seu usuário")
    leia(user)
-   escreva("digite sua senha ")
+   escreva("digite sua senha")
    leia(passowrd)
-
-enquanto (user <> "admin") ou (passowrd <> "admin") faca
-   escreva("digite o seu usuário ")
+   
+   enquanto (user <> "admin") ou (passowrd <> "admin") faca
+   escreval("usuário ou senha inválidos")
    leia(user)
-   escreva("digite sua senha ")
+   escreva("digite seu usuário")
+   leia(user)
+   escreva("digite sua senha")
    leia(passowrd)
-fimenquanto
+   fimenquanto
 
+ escreval("seja bem vindo ao sistema")
 Fimalgoritmo
